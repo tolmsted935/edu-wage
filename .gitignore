@@ -3,6 +3,8 @@
 
 # Jupyter junk
 .ipynb_checkpoints/
+.virtual_documents/
 
 # Raw data
 data/raw/
+
