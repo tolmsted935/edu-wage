@@ -1,0 +1,8 @@
+# OS junk
+.DS_Store
+
+# Jupyter junk
+.ipynb_checkpoints/
+
+# Raw data
+data/raw/
