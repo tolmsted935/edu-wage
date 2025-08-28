@@ -5,7 +5,7 @@ The analysis focuses on employed adults ages 25–64 with positive wage income.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 - `notebooks/` – Jupyter notebooks for analysis  
 - `output/figures/` – saved plots  
 - `output/tables/` – saved tables  
@@ -13,7 +13,7 @@ The analysis focuses on employed adults ages 25–64 with positive wage income.
 
 ---
 
-## ▶️ How to Reproduce
+##️ How to Reproduce
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/tolmsted935/edu-wage.git
