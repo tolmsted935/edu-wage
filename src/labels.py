@@ -1,6 +1,7 @@
 import pandas as pd
 
 # fixed education order
+
 edu_order = [
     "No schooling",
     "Nursery–Grade 4",
@@ -33,7 +34,14 @@ edu_labels = {
         99:"Missing"
     }
 
+sex_labels = {1:"Male", 2: "Female"}
+
 def label_education(df, source_col="EDUC", target_col="EDUC_label"):
     df[target_col] = df[source_col].map(edu_labels)
     df[target_col] = pd.Categorical(df[target_col], categories=edu_order, ordered=True)
+    return df
+
+def label_sex(df, source_col="SEX", target_col = "SEX_label"):
+    df = df[df["SEX"] != 9]
+    df[target_col] = df[source_col].map(sex_labels)
     return df
