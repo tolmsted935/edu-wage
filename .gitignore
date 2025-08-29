@@ -5,6 +5,14 @@
 .ipynb_checkpoints/
 .virtual_documents/
 
-# Raw data
+# Data
 data/raw/
 data/clean/
+
+# Bytecode caches
+__pycache__/
+*.pyc
+
+# Other
+.projectroot
+.vscode
